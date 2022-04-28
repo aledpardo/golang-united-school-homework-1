@@ -1,10 +1,15 @@
-package main
+package golangunitedlesson0
 
-import "fmt"
-
-import "github.com/kyokomi/emoji"
+import (
+	"fmt"
+	"github.com/kyokomi/emoji"
+)
 
 func main() {
-  hw := emoji.Sprint("Hello :world_map:!")
-  fmt.Println(hw)
+	hw := emoji.Sprint("Hello :world_map:!")
+	fmt.Println(hw)
+}
+
+func Emojify(text string) string {
+	return emoji.Sprint(text)
 }

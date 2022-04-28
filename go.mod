@@ -1,4 +1,4 @@
-module golang-united-lesson-0
+module golangunitedlesson00
 
 go 1.18
 
