@@ -1,4 +1,4 @@
-package golangunitedlesson0
+package main
 
 import (
 	"testing"

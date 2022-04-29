@@ -1,4 +1,4 @@
-package golangunitedlesson0
+package main
 
 import (
 	"fmt"
@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	hw := emoji.Sprint("Hello :world_map:!")
+	hw := Emojify("Hello :world_map:!")
 	fmt.Println(hw)
 }
 
