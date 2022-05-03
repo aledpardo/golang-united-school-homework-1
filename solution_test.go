@@ -5,9 +5,8 @@ import (
 )
 
 func TestGetMessage(t *testing.T) {
-	// ans := GetMessage("Hello World")
-	ans := GetMessage("Hello World")
+	ans := GetMessage()
 	if ans == "" {
-		t.Errorf("Hello World = %s; want \"Hello World\"", ans)
+		t.Errorf("GetMessage = %s; want \"Hello :world_map:\"", ans)
 	}
 }
