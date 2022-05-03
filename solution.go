@@ -1,5 +1,10 @@
 package solution
 
-func GetMessage() string {
-	return ""
+import (
+  "github.com/kyokomi/emoji"
+)
+
+func GetMessage(text string) string {
+  return emoji.Sprint(text)
 }
+
